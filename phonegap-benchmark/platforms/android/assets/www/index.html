@@ -43,7 +43,7 @@
             // Cordova is ready
             //
             function onDeviceReady() {
-                var ip = 'http://192.168.48.187:9292/interactives.html';
+                var ip = 'http://lab.dev.concord.org/interactives.html';
                 var ref = window.open(ip, '_self', 'location=yes');
                 ref.addEventListener('loadstart', function() { alert('start: ' + event.url); });
                 ref.addEventListener('loadstop', function() { alert('stop: ' + event.url); });
